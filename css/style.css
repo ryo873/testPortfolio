@@ -1,0 +1,178 @@
+/* google font */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+/* general  tag */
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* navbar section */
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+/* title section */
+
+.title-profile {
+  background-color: #87cefa;
+}
+.title-profile h1 {
+  font-family: "Bree Serif", serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.title-profile p {
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+}
+
+.quote {
+  color: white;
+}
+
+/* About Me */
+.about {
+  padding-top: 3%;
+}
+
+.about h1 {
+  font-size: 5rem;
+  font-family: "Bebas Neue", cursive;
+}
+
+.about p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+.about-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.head-about h1 {
+  color: black;
+  font-family: "Bree Serif", serif;
+  font-size: 5rem;
+}
+
+/* my-skill */
+.my-skills {
+  background-color: #00bfff;
+  padding-top: 3%;
+  padding-bottom: 4.5%;
+}
+
+.skill-property {
+  text-align: center;
+}
+
+.skill-property h1 {
+  font-family: "Bree Serif", serif;
+  font-size: 5rem;
+  color: white;
+}
+
+.skill-property h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.skill-property p {
+  color: white;
+  font-size: 1rem;
+}
+
+.carousel-item img {
+  width: 30%;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-title {
+  color: gray;
+}
+
+/* experience */
+.header-experience {
+  color: black;
+  font-family: "Bree Serif", serif;
+  font-size: 5rem;
+}
+
+.experience {
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+
+.span-card {
+  position: absolute;
+  left: 240px;
+  top: 10;
+  border-radius: 5px;
+  opacity: 0.6;
+}
+
+/* contact */
+.contact {
+  background-color: #00bfff;
+}
+
+.contact h1 {
+  font-family: "Bree Serif", serif;
+  font-size: 5rem;
+  color: white;
+}
+
+/* for contact */
+/* .map-responsive {
+  overflow: hidden;
+
+  padding-bottom: 56.25%;
+
+  position: relative;
+}
+
+.map-responsive iframe {
+  left: 0;
+
+  top: 0;
+
+  height: 100%;
+
+  width: 100%;
+
+  position: absolute;
+} */
+
+/* media query */
+@media (max-width: 982px) {
+  .title-profile img {
+    margin-left: 30%;
+  }
+  .text-sm-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 572px) {
+  .title-profile img {
+    margin-left: 12%;
+  }
+
+  .text-sm-center {
+    text-align: center;
+  }
+}
